@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Básico</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <style>
+    article p{
+      padding: 12px;
+      background-color: lightgray;
+    }
+
+    article > p{
+      border: 1px solid black
+    }
+
+    #principal p.promocao{
+      padding: 12px;
+      background-color: aliceblue;
+    }
+
+    main > article section > p.coordenadores{
+      font-weight: bold;
+    }
+
+    body #principal article section p.coordenadores{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main id="principal">
+    <!-- h1{Portal de cursos} -->
+    <h1 id="titulo">Portal de cursos</h1>
+  
+    <p id="descricao">Temos cursos nas mais diversas áreas</p>
+  
+    <!-- p{Venha conversar conosco e conhecer nossas ofertas de bolsas de estudos} -->
+    <p class="promocao nova">
+      Venha conversar conosco e conhecer nossas ofertas de <strong>bolsas de estudos</strong>
+    </p>
+  
+    <p>Cursos:</p>
+    <article>
+      <p class="novo-curso">Ciência da Computação</p>
+      <p class="curso">Engenharia de Computação</p>
+      <p class="curso">Farmácia</p>
+      <section>
+        <p class="coordenadores">Coordenadores estão à disposição</p>
+      </section>
+    </article>
+  
+  
+    <!-- p.final-pagina{Entre em contato: 1199887766} -->
+    <p id="contato" class="final-pagina">Entre em contato: 1199887766</p>
+  
+    <!-- p#rodape.final-pagina{&copy; Todos os direitos reservados} -->
+    <p id="rodape" class="final-pagina">&copy; Todos os direitos reservados</p>
+  </main>
+
+
+</body>
+</html>

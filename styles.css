@@ -1,0 +1,54 @@
+/* seletor por id */
+#titulo{
+  color: green;
+  text-align: center;
+}
+
+/* seletor por tipo e id */
+p#descricao{
+  color: blue;
+}
+
+
+/* seletor por tipo e classe */
+p.promocao{
+  text-align: center;
+  background-color: lightgreen;
+}
+
+h1.promocao{
+  color: yellow;
+}
+
+.nova{
+  color: white;
+}
+
+p.final-pagina#rodape{
+  background-color: lightgray;
+  text-align: center;
+}
+
+.curso, .novo-curso{
+  background-color: aliceblue;
+}
+
+.curso, .novo-curso, #contato{
+  padding: 12px;
+  border: 1px solid lightgray;
+}
+
+.novo-curso{
+  color: red;
+}
+
+/* .curso{
+  background-color: aliceblue;
+}
+
+.novo-curso{
+  background-color: aliceblue;
+  color: red;
+} */
+
+
